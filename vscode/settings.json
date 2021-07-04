@@ -30,5 +30,11 @@
         },
         "editor.insertSpaces": true,
         "editor.tabSize": 2
-    }
+    },
+    "workbench.editor.untitled.hint": "hidden",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "redhat.telemetry.enabled": false,
+    "terminal.integrated.fontSize": 16
 }
