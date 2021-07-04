@@ -101,6 +101,9 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# direnv
+eval "$(direnv hook zsh)"
+
 # Kubernetes
 alias k=kubectl
 source <(kubectl completion zsh)
