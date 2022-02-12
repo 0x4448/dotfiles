@@ -11,6 +11,14 @@
         "editor.insertSpaces": true,
         "editor.tabSize": 2
     },
+    "[json]": {
+        "editor.insertSpaces": true,
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace",
+        "editor.tabSize": 2
+    },
     "[python]": {
         "editor.insertSpaces": true,
         "editor.tabSize": 4
