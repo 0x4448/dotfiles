@@ -1,16 +1,5 @@
 {
-    "workbench.startupEditor": "newUntitledFile",
-    "telemetry.enableCrashReporter": false,
-    "telemetry.enableTelemetry": false,
-    "explorer.confirmDragAndDrop": false,
-    "explorer.confirmDelete": false,
-    "editor.acceptSuggestionOnEnter": "off",
-    "explorer.compactFolders": false,
-    "[python]": {
-        "editor.insertSpaces": true,
-        "editor.tabSize": 4
-    },
-    "[javascript]": {
+    "[css]": {
         "editor.insertSpaces": true,
         "editor.tabSize": 2
     },
@@ -18,9 +7,13 @@
         "editor.insertSpaces": true,
         "editor.tabSize": 2
     },
-    "[css]": {
+    "[javascript]": {
         "editor.insertSpaces": true,
         "editor.tabSize": 2
+    },
+    "[python]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4
     },
     "[yaml]": {
         "editor.quickSuggestions": {
@@ -31,10 +24,17 @@
         "editor.insertSpaces": true,
         "editor.tabSize": 2
     },
+    "editor.acceptSuggestionOnEnter": "off",
+    "explorer.compactFolders": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "redhat.telemetry.enabled": false,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "terminal.integrated.fontSize": 16,
     "workbench.editor.untitled.hint": "hidden",
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter.notebook.ipynb"
     },
-    "redhat.telemetry.enabled": false,
-    "terminal.integrated.fontSize": 16
+    "workbench.startupEditor": "newUntitledFile"
 }
