@@ -74,7 +74,9 @@ HIST_STAMPS="+%Y-%m-%d %T"
 # Add wisely, as too many plugins slow down shell startup.
 export plugins=(git)
 
-source "$ZSH/oh-my-zsh.sh"
+if [[ -f "$ZSH/oh-my-zsh.sh" ]]; then
+  source "$ZSH/oh-my-zsh.sh"
+fi
 
 # User configuration
 
