@@ -114,3 +114,6 @@ alias k=kubectl
 if command -v kubectl > /dev/null; then
   source <(kubectl completion zsh)
 fi
+
+# Poetry
+export PATH="$HOME/.poetry/bin:$PATH"
