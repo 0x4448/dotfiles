@@ -105,7 +105,9 @@ fi
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # direnv
-eval "$(direnv hook zsh)"
+if command -v direnv > /dev/null; then
+  eval "$(direnv hook zsh)"
+fi
 
 # Kubernetes
 alias k=kubectl
