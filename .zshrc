@@ -62,7 +62,7 @@ export ZSH_THEME="ys"
 # "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
 # or set a custom format using the strftime function format specifications,
 # see 'man strftime' for details.
-HIST_STAMPS="+%Y-%m-%d %T"
+HIST_STAMPS="%Y-%m-%dT%H:%M:%SZ"
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
@@ -103,6 +103,9 @@ fi
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Environment
+export TZ=UTC
 
 # direnv
 if command -v direnv > /dev/null; then
