@@ -15,6 +15,10 @@
         "editor.insertSpaces": true,
         "editor.tabSize": 4
     },
+    "[shellscript]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2
+    },
     "[yaml]": {
         "editor.quickSuggestions": {
             "other": true,
