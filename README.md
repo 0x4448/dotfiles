@@ -18,5 +18,10 @@ function config {
 config checkout --force
 config config status.showUntrackedFiles no
 
-New-Item -ItemType HardLink -Path "$env:APPDATA\Code\User\settings.json" -Target ".config\Code\User\settings.json"
+$VSCodeDir = "$env:APPDATA\Code\User"
+if (-not (Test-Path "$VSCodeDir")) {
+    New-Item -Type Directory "$VSCodeDir"
+}
+
+New-Item -ItemType HardLink -Path "$VSCodeDir\settings.json" -Target ".config\Code\User\settings.json"
 ```
