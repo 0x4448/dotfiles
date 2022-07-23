@@ -1,0 +1,11 @@
+[diff]
+  guitool = code
+
+[difftool "code"]
+  cmd = code --wait --diff $LOCAL $REMOTE
+
+[merge]
+  guitool = code
+
+[mergetool "code"]
+  cmd = code --wait $MERGED
