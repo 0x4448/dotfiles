@@ -21,6 +21,7 @@ export PATH="$HOME/.local/bin:$PATH"
 
 # Aliases
 alias config='git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME/"'
+alias config-pre-commit='GIT_DIR="$HOME/.dotfiles/" GIT_WORK_TREE="$HOME/" pre-commit'
 
 
 # Environment
