@@ -4,7 +4,7 @@ cd "$HOME" || exit
 echo ".dotfiles" > "$HOME/.gitignore"
 git clone --bare https://github.com/0x4448/dotfiles .dotfiles
 
-alias config='git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME/"'
+alias dotfiles='GIT_DIR="$HOME/.dotfiles/" GIT_WORK_TREE="$HOME/'
 
-config checkout --force
-config config status.showUntrackedFiles no
+dotfiles git checkout --force
+dotfiles git config status.showUntrackedFiles no
