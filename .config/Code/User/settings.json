@@ -36,6 +36,7 @@
         "editor.insertSpaces": true,
         "editor.tabSize": 2
     },
+    "diffEditor.ignoreTrimWhitespace": false,
     "editor.acceptSuggestionOnEnter": "off",
     "explorer.compactFolders": false,
     "explorer.confirmDelete": false,
