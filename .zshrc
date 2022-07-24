@@ -21,6 +21,7 @@ export PATH="$HOME/.local/bin:$PATH"
 
 # Aliases
 alias dotfiles='GIT_DIR="$HOME/.dotfiles/" GIT_WORK_TREE="$HOME/"'
+alias dfs=dotfiles
 
 
 # Environment
