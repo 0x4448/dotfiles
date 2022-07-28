@@ -45,8 +45,7 @@
     "python.linting.flake8Enabled": true,
     "python.linting.flake8Path": "${userHome}/.local/bin/flake8",
     "redhat.telemetry.enabled": false,
-    "telemetry.enableCrashReporter": false,
-    "telemetry.enableTelemetry": false,
+    "telemetry.telemetryLevel": "off",
     "terminal.integrated.fontSize": 16,
     "workbench.editor.untitled.hint": "hidden",
     "workbench.editorAssociations": {
