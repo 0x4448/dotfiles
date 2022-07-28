@@ -1,5 +1,8 @@
 " --- Appearance ---
 
+" Use colors for dark terminal background
+set background=dark
+
 " Show line numbers
 set number
 

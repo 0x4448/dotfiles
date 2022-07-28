@@ -24,6 +24,12 @@ alias dotfiles='GIT_DIR="$HOME/.dotfiles/" GIT_WORK_TREE="$HOME/"'
 alias dfs=dotfiles
 
 
+# Colors
+LS_COLORS="${LS_COLORS}di=01;36:"  # directory: cyan
+LS_COLORS="${LS_COLORS}ex=01;31:"  # executable: red
+export LS_COLORS
+
+
 # Environment
 export TZ=UTC
 
