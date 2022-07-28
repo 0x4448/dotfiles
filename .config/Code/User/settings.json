@@ -49,7 +49,7 @@
     "terminal.integrated.fontSize": 16,
     "workbench.editor.untitled.hint": "hidden",
     "workbench.editorAssociations": {
-        "*.ipynb": "jupyter.notebook.ipynb"
+        "*.ipynb": "jupyter-notebook"
     },
     "workbench.startupEditor": "newUntitledFile"
 }
