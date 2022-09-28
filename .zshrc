@@ -31,6 +31,7 @@ export LS_COLORS
 
 
 # Environment
+export DOTNET_CLI_TELEMETRY_OPTOUT=1
 export TZ=UTC
 
 
