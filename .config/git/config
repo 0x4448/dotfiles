@@ -15,3 +15,7 @@
 
 [mergetool "code"]
   cmd = code --wait $MERGED
+
+[push]
+  autoSetupRemote = true
+  default = simple
