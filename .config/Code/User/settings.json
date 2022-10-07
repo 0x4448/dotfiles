@@ -51,5 +51,6 @@
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter-notebook"
     },
-    "workbench.startupEditor": "newUntitledFile"
+    "workbench.startupEditor": "newUntitledFile",
+    "terminal.integrated.defaultProfile.windows": "Git Bash"
 }
