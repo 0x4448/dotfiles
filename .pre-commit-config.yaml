@@ -1,13 +1,16 @@
 repos:
--   repo: https://github.com/pre-commit/pre-commit-hooks
+  - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.0.1
     hooks:
-    -   id: check-json
-    -   id: check-yaml
-    -   id: no-commit-to-branch
-    -   id: end-of-file-fixer
-    -   id: trailing-whitespace
--   repo: https://github.com/gruntwork-io/pre-commit
+      - id: check-json
+      - id: check-yaml
+      - id: no-commit-to-branch
+      - id: end-of-file-fixer
+        exclude_types:
+          - json
+
+      - id: trailing-whitespace
+  - repo: https://github.com/gruntwork-io/pre-commit
     rev: v0.1.12
     hooks:
-    -   id: shellcheck
+      - id: shellcheck
