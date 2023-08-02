@@ -1,3 +1,7 @@
+default_install_hook_types:
+  - commit-msg
+  - pre-commit
+
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: f71fa2c1f9cf5cb705f73dffe4b21f7c61470ba9  # v4.4.0
@@ -14,3 +18,9 @@ repos:
     rev: 62acdd0e6aaf398eb04af4a6fcd97a9f3f538668  # v0.1.22
     hooks:
       - id: shellcheck
+
+  - repo: https://github.com/compilerla/conventional-pre-commit
+    rev: 7f91e1434e195a0121bc66bd50426f2140b5f862 # v2.3.0
+    hooks:
+      - id: conventional-pre-commit
+        stages: [commit-msg]
