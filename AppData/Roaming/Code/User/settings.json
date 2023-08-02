@@ -1,0 +1,86 @@
+{
+    "[css]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2
+    },
+    "[html]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2
+    },
+    "[javascript]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2
+    },
+    "[json]": {
+        "editor.insertSpaces": true,
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace",
+        "editor.tabSize": 2
+    },
+    "[python]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4
+    },
+    "[shellscript]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2
+    },
+    "[yaml]": {
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": true
+        },
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "explorer.compactFolders": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Path": "${userHome}/.local/bin/flake8",
+    "redhat.telemetry.enabled": false,
+    "telemetry.telemetryLevel": "off",
+    "terminal.integrated.fontSize": 16,
+    "workbench.editor.untitled.hint": "hidden",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "workbench.startupEditor": "newUntitledFile",
+    "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
+    "omnisharp.useModernNet": false,
+    "editor.formatOnType": true,
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Windows PowerShell": {
+            "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+        }
+    },
+    "files.exclude": {
+        "**/*.meta": true
+    },
+    "editor.rulers": [
+        100
+    ],
+    "git.confirmSync": false,
+    "git.suggestSmartCommit": false
+}
