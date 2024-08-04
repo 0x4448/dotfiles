@@ -3,7 +3,7 @@ default='db110a39-67d7-4db6-95ac-9339677b239c'
 list=['db110a39-67d7-4db6-95ac-9339677b239c']
 
 [legacy/profiles:/:db110a39-67d7-4db6-95ac-9339677b239c]
-background-color='rgb(0,55,218)'
+background-color='rgb(1,36,86)'
 default-size-columns=80
 default-size-rows=24
 font='Monospace 16'
