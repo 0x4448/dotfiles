@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
+set -eu
+shopt -s expand_aliases
 
-cd "$HOME" || exit
 echo ".dotfiles" > "$HOME/.gitignore"
-git clone --bare https://github.com/0x4448/dotfiles .dotfiles
+git clone --bare https://github.com/0x4448/dotfiles "$HOME/.dotfiles"
 
 # Create global gitconfig file
 # This prevents unintentional additions to the secondary user gitconfig
