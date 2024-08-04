@@ -119,3 +119,8 @@ if ! shopt -oq posix; then
     source /etc/bash_completion
   fi
 fi
+
+if [ -f "$HOME/.zshrc" ]; then
+  # shellcheck source=/dev/null
+  source "$HOME/.zshrc"
+fi
